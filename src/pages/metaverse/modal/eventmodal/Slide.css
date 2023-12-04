@@ -1,0 +1,27 @@
+.swiper {
+  --swiper-theme-color: #2a3592;
+}
+
+.swiper-button-next:after {
+  margin-right: 80px;
+  width: 80px;
+  height: 80px;
+  content: url("/src/assets/images/slide/slide_next.png") !important;
+}
+
+.swiper-button-prev:after {
+  margin-left: 60px;
+  width: 80px;
+  height: 80px;
+  content: url("/src/assets/images/slide/slide_prev.png") !important;
+}
+
+.swiper-pagination-bullet {
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 10px !important;
+}
+
+.swiper-pagination {
+  margin-bottom: 30px;
+}

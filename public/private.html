@@ -1,0 +1,2946 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <title>에이어티 취업상담센터 개인정보처리방침</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&display=swap&subset=korean"
+    />
+    <style>
+      @charset "utf-8";
+      body,
+      div,
+      dl,
+      dt,
+      dd,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      pre,
+      code,
+      form,
+      fieldset,
+      legend,
+      textarea,
+      p,
+      blockquote,
+      th,
+      td,
+      input,
+      select,
+      button {
+        margin: 0;
+        padding: 0;
+      }
+      fieldset,
+      img {
+        border: 0 none;
+      }
+      dl,
+      ul,
+      menu,
+      li {
+        list-style: none;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:before,
+      blockquote:after,
+      q:before,
+      q:after {
+        content: "";
+        content: none;
+      }
+      input,
+      select,
+      textarea,
+      button {
+        vertical-align: middle;
+        font-size: 100%;
+      }
+      button {
+        border: 0 none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        
+      } /* 뷰포트 변환시 폰트크기 자동확대 방지. */
+      input:checked[type="checkbox"] {
+        background-color: #666;
+        -webkit-appearance: checkbox;
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="submit"],
+      input[type="search"],
+      input[type="tel"],
+      input[type="email"],
+      html input[type="button"],
+      input[type="reset"] {
+        -webkit-appearance: none;
+        border-radius: 0;
+      }
+      input[type="search"]::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+      }
+ 
+      body,
+      th,
+      td,
+      input,
+      select,
+      textarea,
+      button {
+        letter-spacing: -0.03em;
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
+          "맑은 고딕", "돋움", dotum, sans-serif;
+        font-weight: 400;
+        color: #252525;
+      } /* 2021-02-23 수정 */
+      a {
+        color: #222;
+        text-decoration: none;
+      }
+      a:active,
+      a:hover {
+        text-decoration: none;
+      }
+      a:active {
+        background-color: transparent;
+      }
+      address,
+      caption,
+      cite,
+      code,
+      dfn,
+      em,
+      var {
+        font-style: normal;
+        font-weight: normal;
+      }
+      button {
+        -webkit-tap-highlight-color: transparent;
+      }
+      /* global */
+      #kakaoIndex {
+        overflow: hidden;
+        position: absolute;
+        left: -9999px;
+        width: 0;
+        height: 1px;
+        margin: 0;
+        padding: 0;
+      } /* 스킵네비게이션 */
+      .ir_pm {
+        display: block;
+        overflow: hidden;
+        font-size: 0;
+        line-height: 0;
+        text-indent: -9999px;
+      } /* PC용 사용된 이미지내 의미있는 텍스트의 대체텍스트를 제공할때 */
+      .ir_wa {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+      } /* 중요한 이미지 대체텍스트로 이미지off시에도 대체 텍스트를 보여주고자 할때 */
+      .ir_caption {
+        overflow: hidden;
+        width: 1px;
+        font-size: 1px;
+        line-height: 0;
+        text-indent: -9999px;
+      } /* Table caption에 숨김텍스트를 제공할때 */
+      .screen_out {
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        text-indent: -9999px;
+      } /* 대체텍스트가 아닌 접근성을 위한 숨김텍스트를 제공할때 */
+      .show {
+        display: block;
+      }
+      .hide {
+        display: none;
+      }
+      /* common 요소 */
+      .ico_comm {
+        display: inline-block;
+        overflow: hidden;
+        font-size: 0;
+        line-height: 0;
+        background: url(/utf-2020/service/images/ico_comm.png) no-repeat;
+        text-indent: -9999px;
+        vertical-align: top;
+        background-size: 500px 500px;
+      } /* 대체텍스트가 있는 아이콘 */
+      .ico_account {
+        display: inline-block;
+        overflow: hidden;
+        font-size: 0;
+        line-height: 0;
+        background: url(/utf-2020/service/images/ico_account.png) no-repeat;
+        text-indent: -9999px;
+        vertical-align: top;
+        background-size: 200px 300px;
+      } /* 대체텍스트가 있는 아이콘 - 기존 이미지 툴팁사용 */
+      html,
+      body {
+        height: 100%;
+      }
+      .account_comm {
+        display: table;
+        width: 100%;
+        min-width: 320px;
+        height: 100%;
+        border-collapse: separate;
+      }
+      .account_comm #kakaoWrap {
+        position: relative;
+        display: table-cell;
+        height: 100%;
+        vertical-align: middle;
+        padding: 50px 0;
+      }
+      #kakaoContent {
+        max-width: 520px;
+        margin: 0 auto;
+      }
+      .account_comm #mArticle {
+        position: relative;
+        min-height: 622px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 0 none;
+      }
+      .cont_login #mArticle {
+        min-height: 100%;
+      }
+      .pc_view {
+        display: block;
+      }
+      .m_view {
+        display: none;
+      }
+      .link_txt {
+        color: #326edc;
+      }
+      .link_txt:hover {
+        text-decoration: underline;
+      }
+      .tbl_g .fs_bold .inner_tbl {
+        font-size: 15px;
+        font-weight: 500;
+      } /* 2021-03-08 스타일 추가 */
+      /* header */
+      .account_comm .prev_head {
+        display: none;
+      }
+      .tit_head {
+        display: block;
+        height: 62px;
+        padding-left: 31px;
+        background-color: #19234b;
+        box-sizing: border-box;
+      }
+      .tit_head .biz_logo {
+        display: inline-block;
+        width: 133px;
+        height: 17px;
+        margin: 23px 0 0 0;
+        background: url(/utf-2020/service/images/img_logo.png) no-repeat;
+        background-size: 133px 17px;
+        vertical-align: top;
+      }
+      /* footer */
+      .footer_comm {
+        margin: 40px auto 0;
+        text-align: center;
+      }
+      .footer_comm .service_info {
+        font-size: 0;
+      }
+      .footer_comm .link_info {
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.7);
+        line-height: 20px;
+      }
+      .footer_comm .link_policy {
+        font-weight: 500;
+      }
+      .footer_comm .item_select {
+        display: inline-block;
+        position: relative;
+        min-width: 53px;
+        padding: 0 10px;
+        text-align: left;
+      }
+      .footer_comm .item_select .link_selected {
+        display: block;
+        position: relative;
+        height: auto;
+        line-height: 20px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.7);
+      }
+      .footer_comm .item_select .link_selected .ico_arr {
+        display: inline-block;
+        width: 9px;
+        height: 6px;
+        margin: 6px 0 0 3px;
+        background-position: -90px 0;
+        vertical-align: top;
+      }
+      .footer_comm .item_select .list_select {
+        display: none;
+        position: absolute;
+        top: auto;
+        bottom: -12px;
+        min-width: 90px;
+        max-height: 160px;
+        overflow-y: auto;
+        font-size: 13px;
+        border: 1px solid #eee;
+        border-radius: 2px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        z-index: 10;
+      }
+      .footer_comm .item_select .link_select {
+        height: 40px;
+        padding: 0 15px;
+        color: #252525;
+        line-height: 40px;
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      .footer_comm .item_select .link_select:hover {
+        background-color: #eee;
+      }
+      .footer_comm .select_open .list_select {
+        display: block;
+      }
+      .footer_comm .select_open .link_selected .ico_arr {
+        background-position: -90px -10px;
+      }
+      .footer_comm .txt_copyright {
+        display: block;
+        margin-top: 6px;
+        font-size: 11px;
+        color: rgba(0, 0, 0, 0.5);
+        line-height: 20px;
+        letter-spacing: -0.01em;
+      } /* 2021-02-23 수정 */
+      .footer_comm .link_kakao {
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.5);
+      } /* 2021-02-23 수정 */
+      /** common **/
+      /* inputbox */
+      input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 1000px white inset;
+      }
+      input[type="text"]::-ms-clear {
+        display: none;
+      } /* BIZONEQA-155 추가 */
+      input[type="tel"]::-ms-clear {
+        display: none;
+      } /* BIZONEQA-155 추가 */
+      .wrap_inp + .item_inp {
+        margin-top: 10px;
+      }
+      .item_inp + .item_inp {
+        margin-top: 10px;
+      }
+      .item_inp {
+        position: relative;
+      }
+      .item_inp .inner_inp {
+        display: block;
+        overflow: hidden;
+        height: 100%;
+      }
+      .item_inp::placeholder,
+      .item_inp .tf_g::placeholder,
+      .item_inp .tf_g::-webkit-input-placeholder,
+      .item_inp .tf_g:-ms-input-placeholder {
+        color: #ccc;
+      }
+      .item_inp .lab_txt {
+        position: absolute;
+        left: 0;
+        top: 11px;
+        font-size: 15px;
+        line-height: 24px;
+        color: #ccc;
+        cursor: text;
+      }
+      .item_inp .tf_g {
+        display: block;
+        width: 100%;
+        height: 48px;
+        border: 0 none;
+        border-bottom: 2px solid #ebebeb;
+        padding: 13px 30px 13px 0px;
+        font-size: 16px;
+        line-height: 24px;
+        background-color: transparent;
+        color: #252525;
+        outline: 0 none;
+        box-sizing: border-box;
+        caret-color: #f7e317;
+      }
+      .item_inp .tf_g[disabled] {
+        color: #252525;
+        opacity: 1;
+        -webkit-text-fill-color: #252525;
+      } /* BIZONEQA-104 수정 */
+      .item_inp.error .desc_info {
+        color: #f51045;
+      }
+      /* checkbox */
+      .item_check {
+        display: block;
+        position: relative;
+      } /* 2021-02-23 수정 */
+      .item_check .inp_check {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -1;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        opacity: 0.01;
+        filter: alpha(opacity=0);
+      }
+      .item_check .ico_check {
+        float: left;
+        width: 20px;
+        height: 20px;
+        margin-top: 1px;
+        margin-right: 8px;
+        background-position: -30px 0;
+      } /* 2021-02-23 수정 */
+      .item_check .lab_check {
+        display: block;
+        height: 100%;
+        line-height: 22px;
+        font-size: 14px;
+        cursor: pointer;
+      } /* 2021-02-23 수정 */
+      .item_check .inp_check + .lab_check .ico_comm {
+        display: block;
+      }
+      .item_check .inp_check:checked + .lab_check .ico_check {
+        background-position: -60px 0;
+      }
+      /* button */
+      .btn_g {
+        display: block;
+        width: 100%;
+        max-height: 50px;
+        font-size: 15px;
+        border-radius: 4px;
+        color: #333;
+        background-color: #f6f6f6;
+        box-sizing: border-box;
+        vertical-align: top;
+        outline: 0 none;
+      } /* BIZONEQA-111 수정 */ /* 2021-02-23 수정*/
+      .btn_g .inner_g {
+        display: block;
+        height: 50px;
+        font-size: 15px;
+        line-height: 49px;
+        color: #333;
+      } /* BIZONEQA-111 수정 */ /* 2021-02-23 수정*/
+      .btn_g.disabled {
+        pointer-events: none;
+      }
+      .btn_g:hover {
+        background-color: #e7e7e7;
+      }
+      .btn_confirm {
+        background-color: #fee500;
+      }
+      .btn_confirm:hover {
+        background-color: #f0d802;
+      }
+      .btn_cancel {
+        background-color: #f2f6fd;
+      }
+      .btn_cancel:hover {
+        background-color: #e6ebf4;
+      }
+      .wrap_btn .btn_g + .btn_g {
+        margin-top: 10px;
+      }
+      /* login */
+      .cont_login .item_inp .lab_txt {
+        font-size: 16px;
+      }
+      .box_g {
+        padding: 50px 70px 50px 70px;
+      } /* 2021-02-23 수정 */
+      .cont_login .box_g {
+        padding: 50px 70px 64px 70px;
+      } /* 2021-02-23 수정 */
+      .box_tit {
+        overflow: hidden;
+        padding: 50px 46px 0 70px;
+      }
+      .tit_g {
+        display: block;
+        line-height: 34px;
+        font-size: 24px;
+        font-weight: 400;
+        word-break: keep-all;
+        word-wrap: break-word;
+      } /* BIZONE-246 수정 */ /* 2021-02-23 수정 */
+      .tit_g span {
+        font-weight: 500;
+      }
+      .tit_sub {
+        margin-top: 14px;
+        line-height: 24px;
+        font-size: 16px;
+        color: #7c7c7c;
+      } /* 2021-02-23 수정 */
+      .box_tit .tit_agree {
+        display: block;
+        line-height: 34px;
+        font-size: 24px;
+        font-weight: 400;
+      } /* 2021-02-23 수정 */
+      .util_tf {
+        position: absolute;
+        top: 13px;
+        right: 0;
+      }
+      .util_tf .btn_help {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        vertical-align: top;
+      }
+      .util_tf .btn_help .ico_help {
+        width: 20px;
+        height: 20px;
+        background-position: 0 0;
+      }
+      .util_tf .btn_del {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        vertical-align: top;
+      }
+      .util_tf .btn_del .ico_del {
+        width: 20px;
+        height: 20px;
+        background-position: -30px -30px;
+      }
+      .util_tf .ico_done {
+        width: 23px;
+        height: 17px;
+        margin-top: 2px;
+        background-position: -60px -30px;
+      }
+      .set_login {
+        margin-top: 25px;
+      }
+      .set_login .item_check .lab_check {
+        line-height: 20px;
+      } /* 2021-02-23 추가 */
+      .set_login .item_check .ico_check {
+        margin: 0 8px 0 0;
+      } /* 2021-02-23 추가 */
+      .wrap_btn {
+        overflow: hidden;
+        margin: 40px 0 0;
+        text-align: center;
+      } /* 2021-02-23 수정 */
+      .wrap_btn .link_cencle {
+        display: inline-block;
+        position: relative;
+        margin-top: 20px;
+        line-height: 18px;
+        font-size: 13px;
+        color: #333;
+        text-decoration: underline;
+      }
+      .info_user {
+        margin-top: 30px;
+      }
+      .info_user:after {
+        display: block;
+        visibility: hidden;
+        height: 0;
+        font-size: 0;
+        clear: both;
+        content: "";
+      }
+      .info_user .link_join {
+        float: left;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.7);
+      }
+      .info_user .list_user {
+        float: right;
+      }
+      .info_user .list_user li {
+        float: left;
+      }
+      .info_user .list_user .link_user {
+        float: left;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.7);
+      }
+      .info_user .list_user li:before {
+        content: "";
+        float: left;
+        width: 1px;
+        height: 10px;
+        margin: 4px 12px;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .info_user .list_user li:first-child:before {
+        display: none;
+      }
+      .tooltip_comm {
+        display: none;
+        position: absolute;
+        top: 43px;
+        left: auto;
+        right: -4px;
+        z-index: 10;
+        width: 280px;
+        padding: 7px 12px 8px;
+        border-radius: 3px;
+        font-size: 12px;
+        color: #fff;
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.8);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#cc000000,endColorStr=#cc000000)";
+        box-sizing: border-box;
+        word-break: keep-all;
+      }
+      .tooltip_comm .link_more {
+        display: inline-block;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 10px;
+        font-size: 12px;
+        vertical-align: top;
+        color: #fbdd0d;
+        text-decoration: underline;
+      }
+      .tooltip_comm .ico_arr {
+        position: absolute;
+        top: -7px;
+        left: auto;
+        right: 7px;
+        width: 15px;
+        height: 7px;
+        background-position: -120px -140px;
+      }
+      .cont_login .tooltip_login {
+        top: 36px;
+        left: 0;
+      }
+      .cont_login .tooltip_login .ico_arr {
+        left: 63px;
+      }
+      .tooltip_on .tooltip_comm {
+        display: block;
+      }
+      .cont_login .line_or {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 0;
+        line-height: 0;
+      }
+      .cont_login .line_or .txt_or {
+        display: inline-block;
+        width: 40px;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.3);
+      }
+      .line_or:before {
+        display: inline-block;
+        width: calc(50% - 20px);
+        height: 1px;
+        margin: 8px 0;
+        background-color: rgba(0, 0, 0, 0.06);
+        vertical-align: top;
+        content: "";
+      }
+      .line_or:after {
+        display: inline-block;
+        width: calc(50% - 20px);
+        height: 1px;
+        margin: 8px 0;
+        background-color: rgba(0, 0, 0, 0.06);
+        vertical-align: top;
+        content: "";
+      }
+      .ico_qr {
+        width: 17px;
+        height: 17px;
+        margin: 17px 6px 0 0;
+        background-position: -80px -200px;
+      } /* BIZONEQA-111 수정 */
+      /* agree */
+      /* .box_agree{padding:50px 70px 188px 70px} */
+      /* .box_agree .wrap_btn{position:absolute;left:70px;right:70px;bottom:50px} */
+      .box_agree .wrap_btn {
+        margin-top: 48px;
+      } /* 2021-02-23 수정 */
+      .box_agree .desc_check {
+        padding: 7px 39px 25px 28px;
+        font-size: 12px;
+        color: #959595;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      } /* 2021-02-23 수정 */
+      .box_agree .check_all {
+        margin-top: 0;
+      }
+      .box_agree .check_all .lab_check {
+        font-size: 17px;
+        color: #252525;
+        font-weight: 500;
+      } /* 2021-02-23 수정 */
+      .detail_check + .detail_check {
+        margin-top: 21px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      .detail_check .item_check {
+        display: block;
+        margin-top: 20px;
+        padding-right: 20px;
+      } /* 2021-02-23 수정 */
+      .detail_check .item_check .lab_check {
+        font-size: 15px;
+      } /* 2021-02-23 수정 */
+      .detail_check .item_check .link_more {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 13px;
+        color: #7c7c7c;
+      }
+      .detail_check .link_more .ico_arr {
+        width: 8px;
+        height: 13px;
+        margin: 4px 4px 4px 8px;
+        background-position: 0 -30px;
+      }
+      .detail_check .tit_agree {
+        display: block;
+        padding: 20px 0 0 0;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+      }
+      .box_agree .desc_agree + .wrap_btn {
+        position: absolute;
+        left: 70px;
+        right: 70px;
+        bottom: 50px;
+      }
+      /* certifi */
+      .box_certifi {
+        padding-bottom: 150px;
+      } /* 2021-04-19 추가 */
+      .box_certifi .wrap_btn {
+        position: absolute;
+        bottom: 50px;
+        left: 70px;
+        right: 70px;
+      }
+      .box_certifi .tf_g {
+        padding-right: 70px;
+      }
+      .box_certifi .desc_email {
+        margin-top: -10px;
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #326edc;
+        word-break: break-all;
+      } /* 2021-04-19 추가 */
+      .tit_tf {
+        display: block;
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 12px;
+      } /* 2021-02-23 수정 */
+      .item_inp + .tit_tf,
+      .item_info + .tit_tf,
+      .info_modify + .tit_tf,
+      .wrap_inp + .tit_tf {
+        margin-top: 40px;
+      } /* 2021-04-19 수정 */
+      .info_count {
+        display: inline-block;
+        margin-left: 12px;
+        vertical-align: top;
+      }
+      .info_count .txt_count {
+        display: block;
+        margin-top: -1px;
+        line-height: 22px;
+        color: #adadad;
+        font-size: 12px;
+      }
+      .off .info_count {
+        display: none;
+      }
+      .wrap_inp {
+        position: relative;
+        padding-left: 85px;
+        border-bottom: 2px solid #ebebeb;
+      }
+      .wrap_inp.on {
+        border-color: #7c7c7c;
+      }
+      .wrap_inp.error {
+        border-color: #f51045;
+      }
+      .wrap_inp .item_inp {
+        padding-left: 20px;
+      }
+      .wrap_inp .item_inp:before {
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: 0;
+        width: 1px;
+        height: 22px;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .wrap_inp .item_inp .lab_txt {
+        left: 20px;
+      }
+      .wrap_inp .tf_g {
+        border-width: 0;
+      }
+      .wrap_inp .item_select {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 85px;
+      }
+      .wrap_inp .item_select .link_selected {
+        display: block;
+        position: relative;
+        height: 23px;
+        padding: 12px 0 13px;
+        font-size: 16px;
+        color: #4c4c4c;
+        line-height: 24px;
+      }
+      select::-ms-expand {
+        display: none;
+      }
+      .wrap_inp .item_select select.link_selected {
+        width: 100%;
+        height: 100%;
+        font-family: inherit;
+        background: url(/utf-2020/service/images/ico_select.png) no-repeat 80%
+          52%;
+        border: 0 none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-size: 12px 8px;
+      }
+      .wrap_inp .item_select .link_selected .ico_arr {
+        position: absolute;
+        top: 21px;
+        right: 15px;
+        width: 12px;
+        height: 8px;
+        background-position: -110px -10px;
+      }
+      .wrap_inp .item_select .list_select {
+        display: none;
+        position: absolute;
+        top: 40px;
+        width: 260px;
+        max-height: 438px;
+        overflow-y: auto;
+        font-size: 13px;
+        border: 1px solid #eee;
+        border-radius: 2px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        z-index: 10;
+      }
+      .wrap_inp .item_select .link_select {
+        height: 40px;
+        padding: 0 15px;
+        color: #252525;
+        line-height: 40px;
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      .wrap_inp .item_select .list_select .num_select {
+        display: inline-block;
+        min-width: 35px;
+      }
+      .wrap_inp .select_open .list_select {
+        display: block;
+      }
+      .wrap_inp .item_select .link_select:hover {
+        background-color: #eee;
+      }
+      .item_info {
+        overflow: hidden;
+        margin-top: 10px;
+      }
+      .desc_info {
+        position: relative;
+        font-size: 12px;
+        line-height: 18px;
+        color: #959595;
+        word-break: keep-all;
+      }
+      .item_info .link_g {
+        font-size: 13px;
+        color: #333;
+        line-height: 18px;
+        text-decoration: underline;
+      }
+      .desc_error {
+        margin-top: 10px;
+        line-height: 18px;
+        font-size: 12px;
+        color: #f51045;
+      }
+      .item_inp.on .tf_g {
+        border-color: #7c7c7c;
+      }
+      .item_inp.error .tf_g {
+        border-color: #f51045;
+      }
+      .info_modify {
+        position: relative;
+        margin-top: 10px;
+      }
+      .info_modify:after {
+        display: block;
+        visibility: hidden;
+        height: 0;
+        font-size: 0;
+        clear: both;
+        content: "";
+      }
+      .info_modify .link_modify {
+        position: absolute;
+        top: 0;
+        right: 0;
+        float: right;
+        height: 30px;
+        padding: 0 16px;
+        font-size: 13px;
+        color: #252525;
+        line-height: 28px;
+        text-align: center;
+        border: 1px solid #dbdbdb;
+        border-radius: 15px;
+      }
+      .info_modify .desc_info {
+        padding-right: 125px;
+      }
+      .info_modify .desc_info:before {
+        top: 12px;
+      }
+      .util_tf .info_modify {
+        display: inline-block;
+        float: none;
+        height: 28px;
+        border-radius: 15px;
+      } /* BIZONEQA-113 수정 */
+      .item_inp .util_tf .info_modify {
+        margin-top: -5px;
+      }
+      .wrap_inp .item_inp .util_tf .info_modify {
+        display: inline-block;
+        margin-top: -3px;
+      } /* BIZONEQA-113 수정 */
+      .util_tf .info_modify .link_modify {
+        position: relative;
+      }
+      .desc_agree {
+        line-height: 20px;
+        font-size: 13px;
+        word-break: keep-all;
+      }
+      /* layer */
+      .dimmed_layer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+        z-index: 998;
+      }
+      .dimmed_layer2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        z-index: 998;
+      }
+      .dimmed_layer_up {
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 1;
+        z-index: 1000;
+      } /* 2020-01-12 추가 */
+      .kakao_layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 40px;
+        text-align: center;
+        font-size: 0;
+        z-index: 1000;
+      } /* 2020-01-12 수정 */ /* 2020-02-23 수정 */
+      .account_comm .kakao_layer {
+        padding: 60px 40px;
+      }
+      .account_comm .kakao_layer {
+        display: table;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      } /* 2021-02-23 추가 */
+      .kakao_layer:after {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        content: "";
+      }
+      .kakao_layer .inner_kakao_layer {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        max-width: 380px;
+        padding: 44px 30px 30px;
+        vertical-align: middle;
+        text-align: left;
+        border-radius: 2px;
+        background-color: #fff;
+        word-break: keep-all;
+        box-sizing: border-box;
+      } /* 2021-02-23 수정 */
+      /* 2021-01-20 삭제 .account_comm .kakao_layer .inner_kakao_layer{border-radius:0} */
+      .kakao_layer .layer_head .tit_layer {
+        display: block;
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 26px;
+        word-break: keep-all;
+        font-weight: 400;
+      } /* 2021-02-23 수정 */
+      .kakao_layer .layer_head .tit_layer em {
+        font-weight: 500;
+      }
+      .kakao_layer .layer_body .txt_layer {
+        font-weight: 400;
+        line-height: 22px;
+        color: #7c7c7c;
+        font-size: 14px;
+      } /* 2021-02-23 수정 */
+      .kakao_layer .layer_body .txt_layer.txt_single {
+        line-height: 44px;
+      } /* 2021-04-19 추가 */
+      .kakao_layer .layer_body .wrap_btn {
+        margin-top: 35px;
+      }
+      .kakao_layer .layer_foot {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+      }
+      .kakao_layer .layer_foot .btn_close {
+        padding: 15px;
+        font-size: 0;
+        outline: 0 none;
+      }
+      .account_comm .kakao_layer .inner_terms_layer .btn_close {
+        padding: 15px;
+      }
+      .kakao_layer .btn_close .ico_comm {
+        width: 18px;
+        height: 18px;
+        background-position: -10px -30px;
+      }
+      /* layer - agree */
+      .kakao_layer .inner_terms_layer {
+        overflow: hidden;
+        max-width: 600px;
+        min-height: 850px;
+        max-height: 850px;
+        height: 100%;
+        padding: 100px 15px 65px 40px;
+        z-index: 10;
+      }
+      .account_comm .kakao_layer .inner_terms_layer {
+        padding: 60px 28px;
+      } /* 2021-02-23 min-height:inherit;max-height:inherit; */
+      .kakao_layer .inner_terms_layer .layer_head {
+        margin-top: -60px;
+        padding: 0 0 45px 0;
+      }
+      .account_comm .kakao_layer .inner_terms_layer .layer_head {
+        margin-top: 0;
+        padding: 0 0 50px;
+      }
+      .kakao_layer .inner_terms_layer .layer_head .tit_layer {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+      }
+      .kakao_layer .inner_terms_layer .layer_body {
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: absolute;
+        left: 30px;
+        right: 30px;
+        bottom: 60px;
+        top: 146px;
+        -webkit-overflow-scrolling: touch;
+        word-break: keep-all;
+      }
+      .kakao_layer .inner_terms_layer .layer_body::-webkit-scrollbar {
+        width: 3px;
+      }
+      .kakao_layer .inner_terms_layer .layer_body::-webkit-scrollbar-thumb {
+        border-radius: 6px;
+        -webkit-box-shadow: inset 3px 3px 0px rgba(178, 178, 178, 1);
+      }
+      .wrap_terms h3 {
+        margin-top: 50px;
+        font-size: 18px;
+        color: #404040;
+      }
+      .wrap_terms h3:first-child {
+        margin-top: 0;
+      }
+      .wrap_terms .tit_subject {
+        padding-top: 50px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 29px;
+      } /* 2021-02-23 수정 */
+      .wrap_terms .detail_terms:first-of-type .tit_subject {
+        padding-top: 0;
+      }
+      .wrap_terms .tit_desc {
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .wrap_terms .desc_agree {
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #606060;
+      } /* 2021-02-23 수정 */
+      .wrap_terms {
+        padding-right: 15px;
+      }
+      .account_comm .kakao_layer .inner_terms_layer .wrap_terms {
+        padding-right: 0;
+      }
+      .wrap_terms .line_terms {
+        display: block;
+        margin-top: 50px;
+        border-top: 1px solid #e5e5e5;
+      }
+      .wrap_terms .detail_terms + .detail_terms {
+        overflow: hidden;
+      }
+      .list_number {
+        overflow: hidden;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #606060;
+      } /* 2021-02-23 수정 */
+      .list_number li {
+        margin-top: 15px;
+        padding-left: 20px;
+        text-indent: -20px;
+      }
+      .list_number .num_number {
+        margin-right: 4px;
+      }
+      .list_number .num_text {
+        margin-right: 7px;
+      }
+      .list_number .list_number > li {
+        margin-top: 12px;
+      }
+      .list_agree {
+        margin-top: 15px;
+        padding-left: 20px;
+        font-size: 13px;
+        color: #606060;
+      }
+      .list_agree li {
+        list-style-type: disc;
+      }
+      .ul_text {
+        overflow: hidden;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #606060;
+      } /* 2021-02-23 수정 */
+      .ul_text li {
+        margin-top: 8px;
+      }
+      .ul_text .num_text {
+        margin-right: 2px;
+      }
+      .list_dot {
+        margin-top: 15px;
+        font-size: 13px;
+        color: #2967e3;
+      }
+      .list_dot li {
+        position: relative;
+        padding-left: 12px;
+      }
+      .list_dot li:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 2px;
+        height: 2px;
+        margin-top: -1px;
+        background-color: #2967e3;
+        border-radius: 2px;
+      }
+      .list_dot li + li {
+        margin-top: 8px;
+      }
+      .list_dot a {
+        color: #2967e3;
+        text-decoration: none;
+      }
+      .list_dot a:hover {
+        text-decoration: underline;
+      }
+      .detail_terms .list_direct {
+        overflow: hidden;
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+      } /* 2021-02-23 수정 */
+      .detail_terms .list_direct:first-of-type {
+        margin-top: 15px;
+      }
+      .detail_terms .list_direct dt {
+        float: left;
+        position: relative;
+        margin-right: 6px;
+        padding-left: 10px;
+        color: #7c7c7c;
+      }
+      .detail_terms .list_direct dt:after {
+        margin-left: 3px;
+        content: ":";
+      }
+      .detail_terms .list_direct dt:before {
+        position: absolute;
+        top: 8px;
+        left: 3px;
+        width: 2px;
+        height: 2px;
+        border-radius: 100%;
+        background-color: #7c7c7c;
+        content: "";
+      }
+      .detail_terms .list_direct dd {
+        overflow: hidden;
+      }
+      .detail_terms .list_direct .link_direct {
+        float: left;
+        position: relative;
+        margin-right: 8px;
+        padding-left: 9px;
+        color: #326edc;
+      }
+      .detail_terms .list_direct .link_direct:first-of-type {
+        padding-left: 0;
+      }
+      .detail_terms .list_direct .link_direct + .link_direct:before {
+        position: absolute;
+        top: 4px;
+        left: 0;
+        width: 1px;
+        height: 12px;
+        background-color: #000;
+        opacity: 0.2;
+        content: "";
+      }
+      .detail_terms .list_direct .link_direct:hover {
+        text-decoration: underline;
+      }
+      #kakaoWrap .box_terms {
+        padding-top: 40px;
+      }
+      #kakaoWrap .box_terms .wrap_terms {
+        padding-right: 0;
+      } /* 컨텐츠형 */
+      #kakaoWrap .wrap_terms .detail_terms .desc_agree:first-child {
+        margin-top: 0;
+      }
+      /* withdraw layout */
+      .cont_withdraw {
+        display: table;
+        width: 100%;
+        min-width: 320px;
+        height: 100%;
+        border-collapse: separate;
+      }
+      .cont_withdraw #kakaoWrap {
+        position: relative;
+        display: table-cell;
+        height: 100%;
+        vertical-align: middle;
+        padding: 50px 0;
+      }
+      .cont_withdraw #mArticle {
+        position: relative;
+        min-height: 634px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 0 none;
+      }
+      .cont_withdraw .kakao_layer {
+        display: table;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+      } /* 2021-02-23 추가 */
+      /* header */
+      .cont_withdraw .prev_head {
+        display: none;
+      }
+      .cont_withdraw .tit_head .link_prev {
+        display: none;
+      }
+      /* checkbox */
+      .box_checkinp {
+        display: inline-block;
+        position: relative;
+      }
+      .box_checkinp .inp_check {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: -1;
+        width: 18px;
+        height: 18px;
+        margin-top: -8px;
+        opacity: 0.01;
+        filter: alpha(opacity=0);
+      }
+      .box_checkinp .ico_check {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 18px;
+        height: 18px;
+        margin-top: -9px;
+        background-position: 0 -60px;
+      }
+      .box_checkinp .lab_check {
+        display: block;
+        height: 100%;
+        padding-left: 26px;
+        color: #222;
+        cursor: pointer;
+      }
+      .box_checkinp.on .ico_check,
+      .box_checkinp .inp_check:checked + .lab_check .ico_check {
+        background-position: -20px -60px;
+      }
+      .box_checkinp .lab_check:hover .ico_check {
+        background-position: 0 -80px;
+      }
+      .box_checkinp.on .lab_check:hover .ico_check {
+        background-position: -20px -60px;
+      }
+      .box_checkinp.on .inp_check:checked + .lab_check .ico_check {
+        background-position: -20px -60px;
+      }
+      .box_checkinp.in_active .ico_check {
+        background-position: -20px -80px;
+      }
+      .box_checkinp.in_active .lab_check {
+        pointer-events: none;
+      }
+      .box_checkinp.in_active .lab_check:hover .ico_check {
+        background-position: -20px -80px;
+      }
+      /* withdraw - input */
+      .box_inptxt {
+        display: block;
+        position: relative;
+        height: 20px;
+        padding: 9px 11px 9px 15px;
+        border-radius: 2px;
+        border: 1px solid #e6e6e6;
+        color: #222;
+        background-color: #fdfeff;
+      }
+      .cont_withdraw .box_inptxt {
+        border-radius: 0;
+      }
+      .box_inptxt.on {
+        border-color: #326edc;
+      }
+      .box_inptxt:hover {
+        border-color: #326edc;
+      }
+      .box_inptxt.in_active {
+        border-color: #f5f5f5;
+        pointer-events: none;
+      }
+      .box_inptxt .inner_inp {
+        display: block;
+        overflow: hidden;
+        height: 100%;
+      }
+      .box_inptxt::placeholder,
+      .box_inptxt .inp_txt::placeholder,
+      .box_inptxt .inp_txt::-webkit-input-placeholder,
+      .box_inptxt .inp_txt:-ms-input-placeholder {
+        color: #c3cae8;
+      }
+      .box_inptxt .lab_txt {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        margin-top: -10px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #c3cae8;
+        cursor: text;
+      }
+      .box_inptxt .inp_txt {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0 none;
+        padding: 0;
+        font-size: 15px;
+        line-height: 20px;
+        background-color: transparent;
+        color: #333;
+        outline: 0 none;
+      }
+      .box_inptxt.in_error {
+        border-color: #f51045;
+      }
+      .cont_withdraw .box_inptxt.in_error {
+        background-color: #fff;
+      }
+      .box_inptxt.in_active .lab_txt {
+        color: #e6e6e6;
+      }
+      .popup_withdraw .desc_error {
+        margin-top: 10px;
+      }
+      .box_inptxt:focus {
+        border-color: #326edc;
+      }
+      .tit_withdraw {
+        display: block;
+        padding-top: 13px;
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 500;
+        color: #000;
+      }
+      .desc_withdraw {
+        padding-top: 5px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #222;
+      }
+      .list_withdraw {
+        border-top: 1px solid #e6e6e6;
+      }
+      .list_withdraw li {
+        position: relative;
+        padding: 16px 88px 18px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      .list_withdraw li .tit_g {
+        font-size: 14px;
+        line-height: 22px;
+        color: #222;
+        word-break: keep-all;
+      }
+      .list_withdraw li .tit_g .emph_g {
+        display: inline-block;
+        padding-right: 3px;
+        font-weight: 500;
+        vertical-align: top;
+      }
+      .list_withdraw li .desc_g {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #959595;
+      }
+      .list_withdraw li .link_txt {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 69px;
+        height: 28px;
+        margin-top: -15px;
+        border: 1px solid #d9d9d9;
+        line-height: 27px;
+        background: #fbfcfe;
+        text-align: center;
+        color: #326edc;
+      }
+      .list_withdraw li .link_txt:hover {
+        border: 1px solid #326edc;
+        background: #fbfcfe;
+        color: #326edc;
+        text-decoration: none;
+      }
+      .list_withdraw2 li {
+        position: relative;
+      }
+      .list_withdraw2 li + li {
+        padding-top: 25px;
+      }
+      .list_withdraw2 li .tit_g {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #222;
+      }
+      .list_withdraw2 li .desc_g {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #959595;
+      }
+      .list_withdraw2 li .link_txt {
+        color: #326edc;
+      }
+      .list_withdraw2 li .link_txt:hover {
+        text-decoration: underline;
+      }
+      .desc_withdraw2 {
+        padding-top: 25px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #959595;
+      }
+      .desc_withdraw2 .link_txt {
+        color: #326edc;
+      }
+      .desc_withdraw2 .link_txt:hover {
+        text-decoration: underline;
+      }
+      .agree_withdraw {
+        padding-top: 36px;
+      }
+      .pw_withdraw {
+        padding-top: 20px;
+        margin-top: 29px;
+        border-top: 1px solid #e6e6e6;
+      }
+      .pw_withdraw .desc_g {
+        font-size: 13px;
+        line-height: 20px;
+        color: #959595;
+      }
+      .pw_withdraw .tit_pw {
+        float: left;
+        width: 92px;
+        padding-top: 1px;
+        line-height: 37px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #828282;
+      } /* 2021-02-23 수정 */
+      .pw_withdraw .inp_pw {
+        display: block;
+        padding-left: 100px;
+      }
+      /* withdraw - button */
+      .wrap_type2 {
+        margin-top: 50px;
+        font-size: 0;
+      }
+      .wrap_type2 .btn_g {
+        display: inline-block;
+        width: 110px;
+        border-radius: 0;
+        vertical-align: top;
+      }
+      .wrap_type2 .btn_g .inner_g {
+        font-size: 16px;
+        color: #222;
+      }
+      .wrap_type2 .btn_g + .btn_g {
+        margin: 0 0 0 6px;
+      }
+      .wrap_type2 .btn_line {
+        border: 1px solid #c8c8c8;
+        background: #fff;
+        box-sizing: border-box;
+      }
+      .wrap_type2 .btn_line:hover {
+        border-color: #646464;
+      }
+      .wrap_type2 .btn_withdraw {
+        background: #19234b;
+      }
+      .wrap_type2 .btn_withdraw:hover {
+        background-color: #364dad;
+      }
+      .wrap_type2 .btn_withdraw .inner_g {
+        color: #fff;
+      }
+      .wrap_type2 .btn_withdraw.in_active {
+        border: 1px solid #f5f5f5;
+        background: #f8f8f8;
+        box-sizing: border-box;
+      }
+      .wrap_type2 .btn_withdraw.in_active .inner_g {
+        color: #e1e1e1;
+      }
+      .wrap_type2 .btn_withdraw2 {
+        background: #222;
+      }
+      .wrap_type2 .btn_withdraw2:hover {
+        background-color: #000;
+      }
+      .wrap_type2 .btn_withdraw2 .inner_g {
+        color: #fff;
+      }
+      .wrap_type2 .btn_withdraw2.in_active {
+        border: 1px solid #f5f5f5;
+        background: #f8f8f8;
+        box-sizing: border-box;
+      }
+      .wrap_type2 .btn_withdraw2.in_active .inner_g {
+        color: #e1e1e1;
+      }
+      .wrap_type2 .link_txt {
+        color: #326edc;
+        font-weight: 400;
+      } /* 2021-02-23 수정 */
+      .wrap_type2 .link_txt:hover {
+        text-decoration: underline;
+      }
+      /* withdraw - loading */
+      .area_loading {
+        display: table;
+        width: 100%;
+        height: 635px;
+      }
+      .area_loading .inner_loading {
+        display: table-cell;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .area_loading .ico_loading {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background-position: -80px -60px;
+        -webkit-animation: loadingRotate 1.4s linear -1s infinite;
+        -moz-animation: loadingRotate 1.4s linear -1s infinite;
+        -ms-animation: loadingRotate 1.4s linear -1s infinite;
+        -o-animation: loadingRotate 1.4s linear -1s infinite;
+        animation: loadingRotate 1.4s linear -1s infinite;
+      }
+      @-webkit-keyframes loadingRotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @-moz-keyframes loadingRotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @-ms-keyframes loadingRotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @-o-keyframes loadingRotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes loadingRotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      /* withdraw - layer */
+      .kakao_layer .inner_withdraw_layer {
+        max-width: 440px;
+        padding: 62px 30px 30px;
+        border-radius: 0;
+        text-align: center;
+      }
+      .kakao_layer .inner_withdraw_layer .layer_head .tit_layer {
+        font-weight: 500;
+        font-size: 16px;
+        color: #222;
+        line-height: 23px;
+      }
+      .kakao_layer .inner_withdraw_layer .layer_body .txt_layer {
+        margin-top: 14px;
+        line-height: 24px;
+        color: #222;
+      }
+      .kakao_layer .inner_withdraw_layer .btn_g {
+        width: 110px;
+        margin: 0 auto;
+        background: #19234b;
+        color: #fff;
+        border-radius: 0;
+      }
+      .kakao_layer .inner_withdraw_layer .btn_g .inner_g {
+        color: #fff;
+        font-size: 16px;
+      }
+      .kakao_layer .inner_withdraw_layer .btn_g:hover {
+        background: #364dad;
+      }
+      .kakao_layer .inner_withdraw_layer .layer_body .wrap_btn {
+        margin-top: 40px;
+      }
+      .kakao_layer .inner_withdraw_layer .ico_close {
+        background-position: -40px -60px;
+      }
+      /* 새창열기 */
+      .wrap_withdraw {
+        overflow: hidden;
+        max-width: 1000px;
+        padding: 0 15px;
+        margin: 0 auto;
+        box-sizing: border-box;
+      } /* PROJECTB-1538 수정 */
+      .wrap_withdraw .tit_head {
+        display: block;
+        height: 62px;
+        padding-left: 31px;
+        background-color: #19234b;
+        box-sizing: border-box;
+      }
+      .wrap_withdraw .tit_head .link_logo {
+        display: inline-block;
+        width: 133px;
+        height: 17px;
+        margin: 23px 0 0 0;
+        background: url(/utf-2020/service/images/img_logo.png) no-repeat;
+        background-size: 133px 17px;
+        vertical-align: top;
+      }
+      .wrap_withdraw .tit_head .link_prev {
+        display: none;
+      }
+      .cont_withdraw {
+        width: 100%;
+        max-width: 1040px;
+        margin: 0 auto;
+      } /* PROJECTB-1538 수정 */
+      .wrap_withdraw .cont_withdraw {
+        min-width: 100%;
+        margin: 20px auto 120px;
+      } /* PROJECTB-1538 수정 */
+      .cont_withdraw .tit_g {
+        font-weight: 500;
+        text-align: center;
+        line-height: 36px;
+      }
+      .cont_withdraw .wrap_terms {
+        padding-right: 0;
+      }
+      .wrap_withdraw .cont_withdraw .tit_g {
+        /* padding-bottom: 50px; */
+      }
+      .box_combine .info_graceperiod {
+        padding: 21px 0 16px;
+        border: 1px solid #f0f1f7;
+        border-width: 1px 0;
+        font-size: 13px;
+        line-height: 20px;
+        background-color: #fbfbfb;
+        color: #364dad;
+        text-align: center;
+      }
+      .box_combine .info_graceperiod .tit_graceperiod {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+      }
+      .box_combine .desc_guide {
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #959595;
+        word-break: keep-all;
+      }
+      .box_combine .desc_guide .line_pc {
+        display: block;
+      }
+      .box_combine .desc_guide .txt_point {
+        display: block;
+        color: #252525;
+      }
+      .box_combine .wrap_btn {
+        overflow: visible;
+        position: absolute;
+        left: 70px;
+        right: 70px;
+        bottom: 49px;
+      }
+      .box_combine .group_link {
+        display: inline-block;
+        position: relative;
+      }
+      .box_combine .util_tf {
+        position: absolute;
+        top: 21px;
+        right: -25px;
+        height: 16px;
+        z-index: 9999;
+      }
+      .box_combine .util_tf .btn_help .ico_help {
+        width: 16px;
+        height: 16px;
+        background-position: -110px -20px;
+      }
+      .box_combine .btn_help {
+        overflow: hidden;
+        width: 16px;
+        height: 16px;
+      }
+      .box_combine .tooltip_comm {
+        width: 298px;
+        top: 27px;
+        left: auto;
+        right: -141px;
+      }
+      .box_combine .tooltip_comm .ico_arr {
+        left: 50%;
+        margin-left: -7px;
+      }
+      /* 2021-02-23 삭제 .account_comm .kakao_layer.terms_layer{top:50%;bottom:inherit;transform:translateY(-50%)} */
+      .account_comm .kakao_layer.terms_layer .inner_terms_layer {
+        max-width: 600px;
+      }
+      .account_comm .kakao_layer.terms_layer .inner_terms_layer {
+        height: auto;
+        min-height: auto;
+      } /* 2021-02-23 추가 */
+      .kakao_layer.terms_layer .inner_terms_layer .layer_body {
+        overflow: hidden;
+        position: static;
+      }
+      .terms_layer .inner_terms_layer .tit_layer {
+        margin-bottom: 0;
+      }
+      .terms_layer .inner_terms_layer .wrap_terms .tit_desc {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      .terms_layer .inner_terms_layer .detail_terms .desc_agree {
+        margin-top: 0px;
+      }
+      .terms_layer .inner_terms_layer .line_terms {
+        margin-top: 30px;
+      }
+      .terms_layer .inner_terms_layer .line_terms:first-child {
+        margin-top: 0;
+      }
+      .terms_layer .inner_terms_layer .list_g {
+        margin: 8px 0 -5px;
+      }
+      .terms_layer .inner_terms_layer .list_g:last-child {
+        margin-bottom: 0;
+      }
+      .terms_layer .inner_terms_layer .list_g li {
+        position: relative;
+        padding-left: 6px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #7c7c7c;
+      } /* 2021-02-23 수정 */
+      .terms_layer .inner_terms_layer .list_g li:before {
+        position: absolute;
+        left: 0;
+        top: 11px;
+        width: 2px;
+        height: 2px;
+        border-radius: 100%;
+        background-color: #7c7c7c;
+        content: "";
+      }
+      .terms_layer .inner_terms_layer .desc_agree .link_txt,
+      .desc_agree2 .link_txt {
+        color: #326edc;
+      }
+      .terms_layer .inner_terms_layer .desc_agree .link_txt:hover,
+      .desc_agree2 .link_txt:hover {
+        text-decoration: underline;
+      }
+      .sup_num {
+        display: inline-block;
+        line-height: 10px;
+      }
+      .desc_agree2 {
+        margin-top: 20px;
+        line-height: 20px;
+        font-size: 13px;
+        color: #606060;
+      }
+      .desc_agree + .desc_tbl {
+        margin-top: 20px;
+      }
+      .desc_agree2 + .desc_agree {
+        margin-top: 20px;
+      }
+      .desc_tbl + .desc_agree {
+        margin-top: 20px;
+      }
+      .desc_tbl + .desc_agree2 {
+        margin-top: 10px;
+      }
+      .box_terms .desc_agree2 {
+        margin-top: 20px;
+        line-height: 20px;
+        font-size: 13px;
+        color: #606060;
+      }
+      .box_terms .desc_agree2 + .desc_agree {
+        margin-top: 20px;
+      }
+      .box_terms .desc_tbl + .desc_agree {
+        margin-top: 20px;
+      }
+      .box_terms .desc_tbl + .desc_agree2 {
+        margin-top: 10px;
+      }
+      .tblg_wrap {
+        overflow: hidden;
+      }
+      .tbl_g {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        border: 1px solid #d9d9d9;
+        border-bottom-color: rgba(0, 0, 0, 0.1);
+        border-left: 0 none;
+        border-right: 0 none;
+      }
+      .tbl_g th {
+        height: 52px;
+        border-width: 0 0 1px 1px;
+        border-style: solid;
+        border-left-color: #efefef;
+        border-bottom-color: #d9d9d9;
+        background-color: #fbfbfb;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+      } /* 2021-02-23 수정 */
+      .tbl_g th:first-child {
+        border-left: 0 none;
+      }
+      .tbl_g td {
+        height: 47px;
+        border-width: 1px 0 0 1px;
+        border-style: solid;
+        border-color: #ebebeb;
+        font-size: 13px;
+        color: #333;
+        word-break: break-all;
+        vertical-align: top;
+      }
+      .tbl_g tr:first-child td {
+        border-top: 0 none;
+      }
+      .tbl_g tr td:first-child {
+        border-left: 0 none;
+      }
+      .tbl_g .inner_tbl {
+        position: relative;
+        padding: 16px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #606060;
+      }
+      .tbl_g th .inner_tbl {
+        padding: 0 16px;
+      }
+      .terms_layer .inner_terms_layer .detail_terms .desc_agree2 + .desc_agree {
+        margin-top: 20px;
+      }
+      .terms_layer .inner_terms_layer .detail_terms .desc_tbl + .desc_agree {
+        margin-top: 20px;
+      }
+      /* media query 580~ */
+      @media (max-width: 580px) {
+        /* m_layout */
+        .pc_view {
+          display: none;
+        }
+        .m_view {
+          display: block;
+        }
+        .account_comm #kakaoWrap {
+          display: block;
+          height: auto;
+          min-height: 100%;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        #kakaoContent {
+          max-width: 100%;
+        }
+        .cont_login #kakaoContent {
+          padding-bottom: 121px;
+        }
+        .account_comm #mArticle {
+          min-height: 100%;
+          border: 0 none;
+        }
+        .account_comm .footer_comm {
+          display: none;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding: 0 20px 15px;
+        }
+        .account_comm .footer_comm .service_info {
+          padding-top: 9px;
+          border-top: 1px solid #d8d8d8;
+        }
+        .account_comm .footer_comm .link_info {
+          padding: 0 4px;
+        }
+        /* m_header */
+        .account_comm .prev_head {
+          display: block;
+          height: 44px;
+          padding-left: 10px;
+          background-color: #fff;
+        }
+        .account_comm .prev_head .link_prev {
+          display: inline-block;
+          padding: 13px 11px 10px;
+        }
+        .account_comm .prev_head .link_prev .ico_prev {
+          width: 13px;
+          height: 20px;
+          background-position: -90px -30px;
+        }
+        .account_comm .tit_head {
+          overflow: hidden;
+          height: 55px;
+          padding-left: 14px;
+        }
+        .account_comm .tit_head .biz_logo {
+          margin: 18px 0 0 6px;
+        }
+        /* m_login */
+        .account_comm .box_tit {
+          padding: 40px 20px 0 20px;
+        }
+        .account_comm .tit_g {
+          line-height: 27px;
+          font-size: 19px;
+        }
+        .account_comm .tit_sub {
+          margin-top: 16px;
+          line-height: 20px;
+          font-size: 13px;
+        }
+        .account_comm .box_g {
+          padding: 40px 20px 35px;
+        }
+        .account_comm .wrap_btn {
+          margin: 40px 0 0;
+        }
+        .account_comm .wrap_btn .btn_g + .btn_g {
+          margin-top: 6px;
+        }
+        .account_comm .box_agree .desc_check {
+          padding: 6px 20px 25px 28px;
+          word-break: keep-all;
+        }
+        .cont_login .line_or {
+          display: none;
+        }
+        .cont_login .line_or + .btn_g {
+          display: none;
+        }
+        /* m_loginpage_personal */
+        .cont_login .link_prev {
+          display: none;
+        }
+        .cont_login .tit_g {
+          line-height: 32px;
+          font-size: 24px;
+        }
+        .cont_login .wrap_btn {
+          margin: 39px 0 0;
+        }
+        .cont_login .footer_comm {
+          display: block;
+        }
+        .cont_login .item_inp .tf_g {
+          border-width: 2px;
+        }
+        .cont_login .box_g {
+          padding: 50px 20px 0;
+        }
+        /* certifi */
+        .item_inp .tf_g {
+          border-width: 1px;
+        }
+        .wrap_inp {
+          border-width: 1px;
+        }
+        .wrap_inp + .item_inp {
+          margin-top: 8px;
+        }
+        .wrap_inp .tf_g {
+          border-width: 0;
+        }
+        .box_certifi .wrap_btn {
+          position: static;
+          margin-top: 50px;
+        } /* 2021-04-19 추가 */
+        .box_certifi .desc_email {
+          margin-top: -9px;
+          padding-bottom: 30px;
+          font-size: 15px;
+          line-height: 20px;
+        } /* 2021-04-19 추가 */
+        .item_inp + .tit_tf,
+        .item_info + .tit_tf,
+        .info_modify + .tit_tf,
+        .wrap_inp + .tit_tf {
+          margin-top: 35px;
+        } /* 2021-04-19 수정 */
+        .item_inp .util_tf .info_modify {
+          margin-top: -4px;
+        }
+        .wrap_inp .item_inp .util_tf .info_modify {
+          margin-top: -3px;
+        }
+        .desc_agree {
+          margin-top: -10px;
+        }
+        /* m_layer */
+        .kakao_layer {
+          padding: 20px;
+        }
+        .account_comm .kakao_layer {
+          padding: 20px;
+        }
+        .kakao_layer .inner_kakao_layer {
+          position: relative;
+          height: auto;
+          max-width: 100%;
+          max-height: 100%;
+          padding: 35px 25px 25px;
+          overflow-y: auto;
+          border-radius: 2px;
+        } /* 2021-01-20 수정 */
+        .kakao_layer .layer_head .tit_layer {
+          margin-bottom: 10px;
+          line-height: 22px;
+          font-size: 15px;
+          font-weight: 500;
+        }
+        .kakao_layer .layer_body .txt_layer {
+          line-height: 17px;
+          font-size: 12px;
+        }
+        .kakao_layer .layer_body .txt_layer.txt_single {
+          line-height: 34px;
+        } /* 2021-04-19 추가 */
+        .kakao_layer .layer_body .wrap_btn {
+          margin-top: 25px;
+        }
+        .kakao_layer .btn_g {
+          max-height: 44px;
+          font-size: 13px;
+        } /* 2021-03-09 스타일 수정 */
+        .kakao_layer .btn_g .inner_g {
+          height: 44px;
+          line-height: 43px;
+          font-size: 13px;
+        } /* 2021-03-09 스타일 추가 */
+        .kakao_layer .layer_foot .btn_close {
+          padding: 15px;
+        }
+        /* m - agree */
+        .box_agree .wrap_btn {
+          position: static;
+        }
+        .box_agree .desc_agree + .wrap_btn {
+          position: static;
+        } /* 2021-01-08 수정 */
+        .tit_agree {
+          display: block;
+          line-height: 27px;
+          font-size: 19px;
+          font-weight: 500;
+        }
+        .wrap_terms {
+          padding-right: 0;
+        }
+        /* withdraw */
+        .cont_withdraw #kakaoContent {
+          max-width: 520px;
+          width: 520px;
+        }
+        .wrap_terms .tit_subject {
+          padding-top: 40px;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .wrap_terms .tit_desc {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .wrap_terms .desc_agree {
+          font-size: 13px;
+          line-height: 20px;
+        }
+        .box_terms .wrap_terms .detail_terms {
+          overflow: inherit;
+        }
+        .box_terms .desc_agree {
+          margin-top: 0;
+        }
+        .detail_terms .list_direct {
+          margin-top: 15px;
+        }
+        .detail_terms .list_direct dt {
+          display: block;
+          float: none;
+          margin-right: 0;
+        }
+        .detail_terms .list_direct dt:after {
+          content: none;
+        }
+        .detail_terms .list_direct dd {
+          display: block;
+          margin-top: 5px;
+        }
+        .detail_terms .list_direct .link_direct {
+          display: inline;
+          float: none;
+          margin-right: 5px;
+        }
+        .detail_terms .list_direct .link_direct + .link_direct::before {
+          top: 4px;
+        }
+        .account_comm .box_combine {
+          height: 390px;
+          padding: 29px 20px 0;
+        }
+        .box_combine .info_graceperiod {
+          font-size: 12px;
+          line-height: 20px;
+        }
+        .box_combine .desc_guide {
+          margin-top: 16px;
+        }
+        .box_combine .wrap_btn {
+          position: static;
+          margin-top: 50px;
+        }
+        .box_combine .wrap_btn .link_cencle {
+          line-height: 17px;
+          vertical-align: top;
+        }
+        .box_combine .tooltip_comm {
+          top: auto;
+          bottom: 26px;
+          right: -93px;
+          left: auto;
+        }
+        .box_combine .tooltip_comm .ico_arr {
+          top: auto;
+          left: auto;
+          right: 93px;
+          bottom: -7px;
+          transform: rotate(180deg);
+          margin-left: 0;
+        }
+        .list_number {
+          font-size: 13px;
+          line-height: 20px;
+        }
+        .ul_text {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .wrap_terms .line_terms {
+          margin-top: 40px;
+        }
+        .box_terms .wrap_terms .line_terms {
+          margin-top: 30px;
+        }
+        .box_terms .wrap_terms .line_terms:first-child {
+          margin-top: 0;
+        }
+        .box_terms .list_g {
+          margin: 8px 0 -5px;
+        }
+        .box_terms .list_g:last-child {
+          margin-bottom: 0;
+        }
+        .box_terms .list_g li {
+          position: relative;
+          padding-left: 6px;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 20px;
+          color: #7c7c7c;
+        } /* 2021-02-23 수정 */
+        .box_terms .list_g li:before {
+          position: absolute;
+          left: 0;
+          top: 9px;
+          width: 2px;
+          height: 2px;
+          border-radius: 100%;
+          background-color: #7c7c7c;
+          content: "";
+        }
+        .box_terms .desc_agree .link_txt {
+          color: #326edc;
+        }
+        .box_terms .desc_agree .link_txt:hover {
+          text-decoration: underline;
+        }
+        .tbl_g th {
+          height: 60px;
+        }
+        .tbl_g th .inner_tbl {
+          padding: 0 10px;
+        }
+        .tbl_g .inner_tbl {
+          padding: 13px 10px;
+        }
+        .box_terms .desc_agree2 {
+          line-height: 18px;
+          font-size: 12px;
+        }
+        #kakaoWrap .box_g .wrap_terms {
+          margin-top: 0px;
+        } /* 컨텐츠형 */
+      }
+
+      .terms_table_box ul {
+        display: flex;
+        width: 100%;
+      }
+      .terms_table_box ul:first-child li {
+        text-align: center;
+      }
+      .terms_table_box ul:last-child li {
+        margin-bottom: 0px;
+      }
+
+      .terms_table_box ul > li:first-child {
+        width: 30%;
+      }
+      .terms_table_box ul > li:nth-child(2) {
+        width: 70%;
+        margin-right: 0;
+      }
+
+      .terms_table_box li {
+        border: 1px solid #000;
+        padding-left: 5px;
+        margin-right: -1px;
+        margin-bottom: -1px;
+      }
+
+      .terms_table_box2 ul {
+        display: flex;
+        width: 100%;
+        text-align: center;
+      }
+      .terms_table_box2 ul > li {
+        padding: 10px;
+        width: 25%;
+        border: 1px solid #000;
+        margin-bottom: -1px;
+        margin-right: -1px;
+      }
+
+      .terms_table {
+        display: flex;
+      }
+
+      .terms_table li {
+        border: 1px solid #000;
+        margin-left: -1px;
+      }
+
+      .big_subject {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 70px 0 10px 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h2 class="screen_out"></h2>
+    <div class="wrap_withdraw">
+      <div class="cont_withdraw">
+        <strong class="tit_g" style="margin-bottom: 30px;">개인정보처리방침</strong>
+        <p class="desc_agree">
+          개인정보 처리방침은 에이어티(이하 "회사"라 합니다)가 특정한 가입절차를 거친 이용자들만 이용 가능한 폐쇄형 서비스를 제공함에 있어, 개인정보를 어떻게 수집·이용·보관·파기 하는지에 대한 정보를 담은 방침을 의미합니다. 개인정보 처리방침은 개인정보보호법 등 국내 개인정보 보호 법령을 모두 준수하고 있습니다. 본 개인정보 처리방침에서 정하지 않은 용어의 정의는 서비스 이용약관을 따릅니다.
+        </p>
+        <br />
+        <br />
+        <div class="wrap_terms">
+          <div class="detail_terms" id="agreeTop">
+            <p class="tit_subject">
+              제1조 [수집하는 개인정보의 항목 및 수집 방법]
+            </p>
+            <p class="tit_desc">1 수집하는 개인정보의 항목</p>
+            <ul class="list_number">
+              <li>
+                <span class="num_number">①</span> 회사는 회원가입, 고객상담,
+                각종 서비스의 제공을 위하여 최초 회원가입 시 다음과 같은
+                개인정보를 수집 이용하고 있습니다.
+                <ul class="list_number">
+                  <li><span class="num_text">가.</span> 필수정보</li>
+                  <li>
+                    <ul class="terms_table">
+                      <li style="padding: 10px; width: 100px; text-indent: 0">
+                        필수정보
+                      </li>
+                      <li style="padding: 10px; text-indent: 0">
+                        이름, 이메일, 비밀번호, 휴대폰번호 
+                      </li>
+                    </ul>
+                  </li>
+                  <li>선택항목을 입력하지 않은 경우에도 서비스 이용 제한은 없습니다.</li>
+                </ul>
+              </li>
+              <li>
+                <span class="num_number">②</span> 서비스 이용과정이나 사업처리 과정에서 다음과 같은 정보들이 자동으로 생성되어 수집될 수 있습니다.<br />- IP Address, 쿠키, 방문 일시, 서비스 이용 기록(접속 시간, 이용 서비스 종류, 접속 연동 IP), 불량 이용 기록
+              </li>
+              <li>
+                <span class="num_number">③</span> 서비스 제공을 위한 경우, 법정대리인의 동의가 필요한 경우 및 관계 법령 준수를 위해 본인확인이 필요한 경우 다음과 같은 정보들이 수집될 수 있습니다.<br />- 이름, 휴대폰번호
+              </li>
+            </ul>
+          </div>
+          <div class="detail_terms">
+            <p class="tit_desc">2 개인정보 수집방법</p>
+            <ul class="list_number">
+              <li>
+                <span class="num_number">①</span>  회사는 다음 같은 방법으로
+                개인정보를 수집합니다.
+                <ul class="list_number">
+                  <li>
+                    <span class="num_text">가.</span> 회원가입 서비스, 상담서비스, 
+                  </li>
+                  <li><span class="num_text">나.</span> 제휴사로부터의 제공</li>
+                  <li><span class="num_text">다.</span> 생성정보 수집 툴 등</li>
+          </div>
+          <div class="detail_terms">
+            <p class="tit_desc">3 회사는 기본적 인권침해의 우려가 있는 개인정보 (인종 및 민족, 사상 및 신조, 출신지 및 본적지,
+              정치적 성향 및 범죄기록, 건강상태 및 성생활 등)는 요구하지 않습니다.</p>
+          </div>
+          <div class="detail_terms">
+            <p class="tit_desc">4 이용자의 동의 이후 개인정보를 추가 수집하는 경우</p>
+             <div class="terms_table_box">
+                <ul >
+                  <li>
+                    서비스명
+                  </li>
+                  <li>
+                    수집하는 개인정보 항목
+                  </li>
+                </ul>
+                <ul >
+                  <li>
+                    취업 상담서비스
+                  </li>
+                  <li>
+                    개인 이력 사항(이름,연락처,이메일주소,개인 신상 이력 내역)
+                  </li>
+                </ul>
+                <ul >
+                  <li>
+                    고객센터
+                  </li>
+                  <li>
+                    회원 문의<br>
+                    - 이름, 이메일<br>
+                    요청 대리인 문의<br>
+                    - 이름, 연락처, 이메일, <u>증빙 자료 사본</u>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div class="detail_terms">
+            <p class="tit_subject">제2조 [개인정보의 수집 및 이용목적]</p>
+            <p class="desc_agree">
+              회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다.
+            </p>
+            <p class="desc_agree">1 회원관리<br />
+              회원제 서비스 이용에 따른 본인확인, 개인식별, 불량회원의 부정 이용 방지와 비인가 사용 방지, 중복가입 확인, 가입의사 확인, 분쟁 조정을 위한 기록 보전, 불만처리 등 민원처리, 고지사항 전달</p> 
+            <p class="desc_agree">2 신규 서비스 개발<br />
+              신규 서비스 개발 및 취업상담 맞춤 서비스 제공, </p>
+          </div>
+          <div class="detail_terms">
+            <p class="tit_subject">제3조 [개인정보의 공유 및 제공]</p>
+           
+            <p class="tit_desc">1 회사는 이용자의 개인정보를 제2조(개인정보의 수집 및 이용목적)에서 고지한 범위 내에서 이용하며, 이용자의 사전 동의 없이는 동 범위를 초과하여 이용하거나 타인 또는 타 기관에 제공 또는 공유하지 않습니다. 다만, 다음의 경우에는 예외로 합니다</p> 
+              <ul class="list_number">
+                <li>
+                  <span class="num_number">①</span> 이용자가 사전에 동의 한 경우
+                </li>
+                <li>
+                  <span class="num_number">②</span> 법령의 규정에 의거하거나, 수사상 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우
+                </li>
+                <li>
+                  <span class="num_number">③</span> 서비스 제공에 따른 요금 정산을 위해 필요한 경우
+                </li>
+                <li>
+                  <span class="num_number">③</span> 통계작성, 학술연구 또는 시장조사를 위하여 개인을 식별할 수 없는 형태로 제공하는 경우
+                </li>
+              </ul>
+            <p class="tit_desc">2 회사는 이용자에 대하여 보다 질 높은 서비스 제공 등을 위해 사전에 동의를 획득한 경우에 한하여 다음과 같이 이용자의 개인정보를 제공하고 있습니다.</p> 
+          </div>
+          <div class="detail_terms">
+            <p class="tit_subject">제 4조 [개인정보의 보유 및 이용기간]</p>
+            <p class="tit_desc">1 이용자의 개인정보는 이용자가 회원탈퇴를 요청하거나 제공한 개인정보의 수집 및 이용에 대한
+              동의를 철회하는 경우, 또는 개인정보의 수집 및 이용목적이 달성되면 지체 없이 파기합니다. 단,
+              다음의 정보에 대해서는 보존근거에서 명시한 근거에 따라 보존기간 동안 보존합니다.</p> 
+              <ul class="list_number">
+                <li>
+                  <span class="num_number">①</span> 보존 항목 : 성명, 아이디, 이메일, 휴대폰번호, 서비스 이용기록, 접속 로그, 쿠키,결제이력
+                </li>
+                <li>
+                  <span class="num_number">②</span> 보존 근거 : 회원 탈퇴 시 소비자의 불만 및 분쟁해결 등을 위한 목적, 부정 이용 방지, 불법적
+                  이용자에 대한 관련 기관 수사협조
+                </li>
+                <li>
+                  <span class="num_number">③</span> 보존 기간 : 3개월
+                </li>
+              </ul>
+            <p class="tit_desc">2 회사는 이용자에 대하여 보다 질 높은 서비스 제공 등을 위해 사전에 동의를 획득한 경우에 한하여
+                다음과 같이 이용자의 개인정보를 제공하고 있습니다.</p> 
+                <ul class="list_number">
+                  <li>
+                    <span class="num_number">①</span> 계약 또는 청약철회 등에 관한 기록
+                    <ul class="list_number">
+                      <li>
+                        <span class="num_text">가.</span> 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률
+                      </li>
+                      <li>
+                        <span class="num_text">나.</span> 보존기간: 5년
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="num_number">②</span> 대금결제 및 재화 등의 공급에 관한 기록
+                    <ul class="list_number">
+                      <li>
+                        <span class="num_text">가.</span> 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률
+                      </li>
+                      <li>
+                        <span class="num_text">나.</span> 보존기간: 5년
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="num_number">③</span> 전자금융 거래에 관한 기록
+                    <ul class="list_number">
+                      <li>
+                        <span class="num_text">가.</span> 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률
+                      </li>
+                      <li>
+                        <span class="num_text">나.</span> 보존기간: 5년
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="num_number">④</span> 소비자의 불만 또는 분쟁처리에 관한 기록
+                    <ul class="list_number">
+                      <li>
+                        <span class="num_text">가.</span> 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률
+                      </li>
+                      <li>
+                        <span class="num_text">나.</span> 보존기간: 3년
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="num_number">⑤</span> 표시/광고에 관한 기록
+                    <ul class="list_number">
+                      <li>
+                        <span class="num_text">가.</span> 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률
+                      </li>
+                      <li>
+                        <span class="num_text">나.</span> 보존기간: 6개월
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="num_number">⑥</span> 웹 사이트 방문기록
+                    <ul class="list_number">
+                      <li>
+                        <span class="num_text">가.</span> 보존근거: 통신비밀보호법
+                      </li>
+                      <li>
+                        <span class="num_text">나.</span> 보존기간: 3개월
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="num_number">⑥</span> 통신사실확인자료
+                    <ul class="list_number">
+                      <li>
+                        <span class="num_text">가.</span> 보존근거: 통신비밀보호법
+                      </li>
+                      <li>
+                        <span class="num_text">나.</span> 보존기간: 12개월
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제 5조 [개인정보의 파기절차 및 방법]</p>
+                <p class="desc_agree">
+                  이용자의 개인정보는 원칙적으로 개인정보의 수집 및 이용목적이 달성되면 지체 없이 파기됩니다. 회사의
+                  개인정보 파기절차 및 방법은 다음과 같습니다.
+                </p>
+                <p class="tit_desc">1 파기절차</p>
+                <ul class="list_number">
+                  <li>
+                    <span class="num_number">①</span> 이용자가 회원가입 등을 위해 입력한 정보는 목적이 달성된 후 별도의 DB로 옮겨져 내부방침 및
+                    기타 관계법령에 의한 정보보호 사유에 따라 일정 기간 저장 후 파기됩니다.
+                  </li>
+                  <li>
+                    <span class="num_number">②</span> 상기 개인정보는 법률에 의한 경우가 아니고서는 보유되는 이외의 다른 목적으로 이용되지
+                    않습니다.
+                  </li>
+                </ul>
+                <p class="tit_desc">2 파기방법</p>
+                <ul class="list_number">
+                  <li>
+                    <span class="num_number">①</span> 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기합니다.
+                  </li>
+                  <li>
+                    <span class="num_number">②</span> 전자적 파일 형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여
+                    삭제합니다.
+                  </li>
+                </ul>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제 6조 [이용자 및 법정대리인의 권리와 그 행사방법]</p>
+                  <p class="desc_agree">
+                   1 이용자는 언제든지 이용자 본인의 개인정보를 조회하거나 정정할 수 있으며, 가입해지(회원탈퇴)
+또는 개인정보의 삭제를 요청할 수 있습니다. 단, 서비스 제공을 위해 반드시 필요한 개인정보를
+삭제하는 경우 관련 서비스를 제공받지 못할 수 있습니다
+                  </p>
+                  <p class="desc_agree">
+                    2 이용자의 개인정보를 조회, 정정하기 위하여는 개인정보변경을, 가입해지(동의철회)를 위하여는
+                    회원탈퇴를 클릭하여 본인 확인 절차 후 직접 조회, 정정 또는 가입해지(동의철회)할 수 있습니다.
+                    또는 개인정보보호책임자 및 담당자에게 서면, 전화 또는 이메일로 연락하시면 본인 확인 절차 후
+                    지체 없이 필요한 조치를 하겠습니다.
+                  </p>
+                  <p class="desc_agree">
+                    3 개인정보의 오류에 대한 정정을 요청하신 경우에는 정정을 완료하기 전까지 당해 개인정보를 이용
+                    또는 제공하지 않습니다. 또한 잘못된 개인정보를 제3자에게 이미 제공한 경우에는 정정 처리결과를
+                    제3자에게 지체 없이 통지하여 정정이 이루어지도록 하겠습니다.
+                  </p>
+                  <p class="desc_agree">
+                    3 개인정보의 오류에 대한 정정을 요청하신 경우에는 정정을 완료하기 전까지 당해 개인정보를 이용
+                    또는 제공하지 않습니다. 또한 잘못된 개인정보를 제3자에게 이미 제공한 경우에는 정정 처리결과를
+                    제3자에게 지체 없이 통지하여 정정이 이루어지도록 하겠습니다.
+                  </p>
+                  <p class="desc_agree">
+                    4 회사는 이용자의 요청에 의해 해지 또는 삭제된 개인정보를 제5조[개인정보의 보유 및 이용기간]에
+명시된 바에 따라 처리하고 그 외의 용도로 열람 또는 이용할 수 없도록 처리하고 있습니다.
+                  </p>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제 7조 [개인정보의 자동 수집 장치의 설치, 운영 및 그 거부에 관한 사항]</p>
+                  <p class="desc_agree">
+                    1 회사는 이용자에게 개인화되고 맞춤화된 서비스를 제공하기 위해 이용자의 정보를 저장하고 수시로
+                    찾아내는 쿠키(Cookie)를 사용합니다. 쿠키는 웹사이트가 이용자의 웹브라우저(인터넷익스플로러,
+                    파이어폭스, 크롬 등)로 전송하는 소량의 정보입니다.
+                  </p>
+                  <p class="desc_agree">
+                    2 이용자는 이용자는 쿠키에 대한 선택권을 가지고 있습니다. 이용자는 웹브라우저에서 [도구] &gt;
+                    [인터넷옵션] &gt; [개인정보] &gt; [설정]을 선택함으로써 모든 쿠키를 허용하거나, 쿠키가 저장될 때
+                    마다 확인을 거치거나, 아니면 모든 쿠키의 저장을 거부할 수 있습니다. 단, 모든 쿠키의 저장을
+                    거부하는 경우, 쿠키를 통해 회사에서 제공하는 서비스를 이용할 수 없습니다.
+                  </p>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제 8조 [개인정보의 기술적/ 관리적 보호 대책]</p>
+                <p class="desc_agree">
+                  회사는 이용자의 개인정보를 처리함에 있어 개인정보가 분실, 도난, 유출, 변조 또는 훼손되지 않도록
+안전성 확보를 위해 기술적, 관리적 대책을 마련하고 있습니다.
+                </p>
+                <p class="tit_desc">1 기술적 대책</p>
+                <ul class="list_number">
+                  <li>
+                    <span class="num_number">①</span> 이용자의 비밀번호는 암호화되어 있어 이용자 본인 외에는 알 수 없습니다.
+                  </li>
+                  <li>
+                    <span class="num_number">②</span> 회사는 암호화 통신을 통하여 네트워크 상에서 개인정보를 안전하게 전송할 수 있도록 하고
+                    있습니다.
+                  </li>
+                  <li>
+                    <span class="num_number">③</span> 회사는 해킹이나 컴퓨터바이러스 등에 의해 이용자의 개인정보가 유출되거나 훼손되는 것을
+                    막기 위해 최선을 다하고 있습니다.
+                  </li>
+                  <li>
+                    <span class="num_number">④</span> 회사는 개인정보의 훼손에 대비하여 자료를 수시로 백업하고 있고, 최신 백신프로그램을
+                    이용하여 컴퓨터바이러스에 의한 피해를 방지하기 위한 조치를 취하고 있습니다.
+                  </li>
+                  <li>
+                    <span class="num_number">⑤</span> 회사는 시스템에 대한 접근통제, 권한 관리, 취약점 점검 등의 조치를 통해 보안성이 강화될 수
+                    있도록 지속적으로 노력하고 있습니다.
+                  </li>
+                </ul>
+                <p class="tit_desc">2 관리적 대책</p>
+                <ul class="list_number">
+                  <li>
+                    <span class="num_number">①</span> 회사는 이용자의 개인정보에 대한 접근권한을 최소한의 인원으로 제한하고 있습니다.
+                  </li>
+                  <li>
+                    <span class="num_number">②</span> 회사는 개인정보처리자를 대상으로 개인정보 보호 의무 등에 관해 정기적인 교육을 실시하고
+                    있습니다.
+                  </li>
+                  <li>
+                    <span class="num_number">③</span> 회사는 개인정보보호 업무를 전담하는 부서에서 개인정보처리방침 및 내부 규정 준수여부를
+                    확인하여 문제가 발견될 경우, 즉시 바로 잡을 수 있도록 노력하고 있습니다.
+                  </li>
+                  <li>
+                    <span class="num_number">④</span> 이용자 본인의 부주의나 회사가 관리하지 않는 영역에서의 사고 등 회사의 귀책에 기인하지
+                    않은 손해에 대해서는 회사는 책임을 지지 않습니다.
+                  </li>
+                </ul>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제9조 [영업 양수 등의 통지]</p>
+                  <p class="desc_agree">
+                    회사는 영업의 전부 또는 일부를 양도하거나 합병, 상속 등으로 그 권리, 의무를 이전하는 경우 이용자에게
+                    관련 내용으로 다음의 항목을 통지합니다.
+                  </p>
+                  <p class="desc_agree">
+                    1. 영업의 전부 또는 일부의 양도, 합병 또는 상속의 사실
+                  </p>
+                  <p class="desc_agree">
+                    2. 권리, 의무를 승계한 자의 성명, 주소, 연락처
+                  </p>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제10조 [개인정보보호책임자 및 담당자의 연락처]</p>
+                <p class="tit_desc">
+                  1 회사는 이용자의 개인정보를 보호하고 개인정보와 관련한 불만을 처리하기 위하여 다음과 같이
+                  개인정보보호책임자 및 담당자를 두고 있습니다.
+                </p>
+                <div class="terms_table_box2">
+                  <ul >
+                    <li>
+                      구분
+                    </li>
+                    <li>
+                      개인정보보호책임자
+                    </li>
+                    <li>
+                      개인정보보호담당자
+                    </li>
+                  </ul>
+                  <ul >
+                    <li>
+                      이름
+                    </li>
+                    <li>
+                      김주영
+                    </li>
+                    <li>
+                      이윤서
+                    </li>
+                  </ul>
+                  <ul >
+                    <li>
+                      소속 및 직위
+                    </li>
+                    <li>
+                      에이어티 대표
+                    </li>
+                    <li>
+                      에이어티 팀장
+                    </li>
+                  </ul>
+                  <ul >
+                    <li>
+                      전화번호
+                    </li>
+                    <li>
+                      070-8837-7775
+                    </li>
+                    <li>
+                      070-8837-7775
+                    </li>
+                  </ul>
+                  <ul >
+                    <li>
+                      이메일                   
+                     </li>
+                    <li>
+                      help@aiety.co.kr
+                    </li>
+                    <li>
+                      help@aiety.co.kr
+                    </li>
+                  </ul>
+                
+                </div>
+                <p class="tit_desc">2 기타 개인정보 침해에 대한 신고나 상담이 필요하신 경우 다음 기관에 문의하시기 바랍니다.</p>
+                <ul class="list_number">
+                  <li>
+                    <span class="num_number">①</span> 개인정보 침해신고센터(privacy.kisa.or.kr/ 국번 없이118)
+                  </li>
+                  <li>
+                    <span class="num_number">②</span> 대검찰청 사이버수사과(spo.go.kr/ 국번 없이 1301)
+                  </li>
+                  <li>
+                    <span class="num_number">③</span> 경찰청 사이버안전국(cyberbureau.police.go.kr/ 국번 없이182)
+                  </li>
+                  <li>
+                    <span class="num_number">④</span> 개인정보 분쟁조정위원회(kopico.go.kr/ 1833-6972)
+                  </li>
+                </ul>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제12조 [링크 사이트]</p>
+                  <p class="desc_agree">
+                    회사는 이용자에게 다른 회사의 웹사이트에 대한 링크를 제공할 수 있습니다. 이 경우 링크되어 있는
+웹사이트가 개인정보를 수집하는 행위에 대해서는 본 개인정보처리방침이 적용되지 않습니다.
+                  </p>
+              </div>
+              <div class="detail_terms">
+                <p class="tit_subject">제13조 [기타]</p>
+                  <p class="desc_agree">
+                    본 개인정보처리방침의 내용 추가, 삭제 및 수정이 있을 시에는 최소 7일 전부터 홈페이지의 공지사항을 통해 고지할 것입니다.
+                  </p>
+                  <p class="desc_agree">          
+                        개인정보처리방침 버전번호 : V1.0<br />
+                        공고일자 : 2024년 03월 01일<br />
+                        시행일자 : 2024년 03월 01일<br />
+                  </p>
+              </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

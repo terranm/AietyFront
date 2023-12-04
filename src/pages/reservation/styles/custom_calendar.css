@@ -1,0 +1,201 @@
+.react-calendar {
+  width: 1200px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.react-calendar__navigation {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px !important;
+  margin: auto;
+}
+
+.react-calendar__navigation__label {
+  padding: 0 30px;
+  flex-grow: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+.react-calendar__navigation__label__labelText {
+  font-size: 16px;
+  display: none;
+  font-weight: 400;
+  color: var(--black-color);
+}
+
+.react-calendar__navigation button {
+  font-size: 30px;
+  color: #d9d9d9;
+}
+.react-calendar__navigation__arrow {
+  display: none;
+  background: none !important;
+  border: 1px solid #d9d9d9 !important;
+  margin: 0 2px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  min-width: 30px !important;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  border-radius: 5px;
+}
+
+.react-calendar__navigation button:enabled:hover {
+  background-color: transparent;
+}
+
+.react-calendar__navigation button:disabled {
+  background-color: transparent !important;
+}
+
+.react-calendar__month-view__days__day {
+  position: relative;
+  width: 154px;
+  height: 131px;
+  background-image: url("/src/assets/images/calender_btn_bg.png");
+  /* background-image: url("/public/images/button.png"); */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat; /* make the background image appear only once */
+  background-position: 0px 0px; /* equivalent to 'top left' */
+  border: none; /* assuming we don't want any borders */
+  background-size: cover;
+}
+.react-calendar__month-view__days__day > abbr {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.react-calendar__month-view * {
+  font-size: 16px;
+  font-weight: 700;
+  color: #666;
+}
+
+.react-calendar__month-view__weekdays {
+  border-bottom: 1px solid #667085;
+  border-top: 1px solid #667085;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 10px 5px;
+  background: #f3f6fb;
+}
+
+.react-calendar__month-view__weekdays__weekday * {
+  text-decoration: none !important;
+}
+
+.react-calendar__month-view__weekdays__weekday:first-child > abbr {
+  color: #c30000;
+}
+
+.react-calendar__tile--now,
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus,
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus,
+.react-calendar__tile--hasActive,
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus,
+.react-calendar__tile--active,
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: none;
+  color: #000;
+}
+
+.react-calendar__tile--now {
+  position: relative;
+  width: 154px;
+  height: 131px;
+  background-image: url("/src/assets/images/calender_btn_bg.png");
+  /* background-image: url("/public/images/button.png"); */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat; /* make the background image appear only once */
+  background-position: 0px 0px; /* equivalent to 'top left' */
+  border: none; /* assuming we don't want any borders */
+  background-size: cover;
+}
+
+.react-calendar__tile {
+  /* padding: 12px 6.6667px; */
+  padding: 10px 0 0 7px;
+  position: relative;
+  pointer-events: none;
+  overflow: visible !important;
+}
+
+.react-calendar__tile > .absoluteDiv {
+  pointer-events: auto;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  pointer-events: none;
+  background: #f0f0f0;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth > .absoluteDiv {
+  display: none;
+}
+
+.react-calendar__tile--now > abbr {
+  background-color: #000;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.react-calendar__month-view__days {
+}
+
+.react-calendar__month-view__days__day.holiday abbr {
+  color: #c30000;
+}
+
+/* attendList 스타일 */
+.dot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  color: #0f182a;
+  font-weight: 400;
+}
+
+.add {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.dot > .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.dot > .blueCircle {
+  width: 8px;
+  height: 8px;
+  background-color: #2878d5;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.dot > .greanCircle {
+  width: 8px;
+  height: 8px;
+  background-color: #14b77c;
+  border-radius: 50%;
+  margin-right: 4px;
+}
